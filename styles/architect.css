@@ -54,3 +54,36 @@ nav li a {
     font-weight: 700px;
     color: #424242;
 }
+.btn-primary{
+    border-radius: 8px;
+    padding: 20px 25px;
+    background-color: #FF900E;
+    border: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FFF;
+}
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+/* responsive  styles*/
+/* mobile device */
+@media screen and (max-width: 576px){
+    header{
+        padding: 20px;
+        }
+    nav{
+        flex-direction: column;
+    }    
+}
+
+/* tablet or medium device */
+@media screen and (min-width: 576px) and (max-width: 960px){
+    header{
+        padding: 20px;
+        }
+    nav{
+        flex-direction: column;
+    }
+}
